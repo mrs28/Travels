@@ -1,4 +1,5 @@
 # Travels - New Destinations
+
 It is a responsive web application designed for a travel agency that aims to attract adventurous travelers and promote their tour packages.
 The target audience is adults aged 20 to 40 who want to explore the world.
 The market's need is to find a website with attractive destinations, travel advice, and competitive prices.
