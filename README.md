@@ -8,18 +8,18 @@ It adapts to different screen sizes, ensuring an optimal user experience on vari
 ### Final project images for Desktop and Tablet.
 #### Administrator view:
 - Login
-    ![admin_login](./travels-project/src/Services/images/vista_login.png)
+    ![admin_login](./src/Services/images/vista_login.png)
  
 - Dashboard
-  ![admin_login](./travels-project/src/Services/images/vista_dahsboard.png) 
+  ![admin_dashboard](./src/Services/images/vista_dahsboard.png) 
 
  
 ### Final project images for Desktop, Tablet and Mobile.
 ##### User view:
 - Home
- ![admin_login](./travels-project/src/Services/images/vista_home.png) 
+ ![user_home](./src/Services/images/vista_home.png) 
 
- ![admin_login](./travels-project/src/Services/images/vista_home_mobile.png) 
+ ![user_home_mobile](./src/Services/images/vista_home_mobile.png) 
  
 
 # Description of the administrator's dashboard:
