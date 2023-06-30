@@ -1,0 +1,16 @@
+.button {
+  width: 19.5rem;
+  height: 3rem;
+  border-radius: 0.6rem;
+  border: none;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  /* background-color: #1e1e1e; */
+  cursor: pointer;
+  background-color: #b2b2b2;
+  color: #18212c;
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+}

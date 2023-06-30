@@ -1,0 +1,190 @@
+.travelAround {
+  padding: 3rem 0 5rem 0;
+}
+
+.travelAroundTitle {
+  position: relative;
+  padding-left: 2.8rem;
+  width: 85%;
+  margin: auto;
+}
+
+.travelAroundTitle .h1 {
+  font-weight: 500;
+  text-justify: left;
+  letter-spacing: 1.5px;
+  font-size: 7.5rem;
+  line-height: 100%;
+  color: #4e4429;
+}
+
+.h1ResponsiveMobile {
+  display: none;
+}
+/****/
+.travelAroundTitleBottom {
+  position: absolute;
+  bottom: 0.6rem;
+  left: 22.5rem;
+  padding: 0.5rem 0 0.5rem 2.5rem;
+  width: 60%;
+  letter-spacing: 2px;
+}
+
+/***Padre de las cplumnas ******/
+.travelAroundBox {
+  display: flex;
+  width: 100%;
+  padding-left: 7rem;
+}
+
+.travelAroundLeft {
+  width: 70%;
+}
+
+.travelAroundImg {
+  width: 100%;
+  border-radius: 5%;
+}
+
+/****Columna derecha */
+.travelAroundRight {
+  padding-top: 4rem;
+  width: 17.5%;
+  /* background-color: pink; */
+}
+
+.travelAroundRightBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.8rem;
+  /* text-align: center; */
+}
+
+.travelAroundRightBox .travelAroundRightBoxImg {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.travelAroundLeftMobile {
+  display: none;
+}
+
+/* MEDIA QUERY TABLET ***/
+@media (max-width: 760px) {
+  .travelAround {
+    padding: 0;
+  }
+
+  .travelAroundBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .travelAroundTitle {
+    padding: 5rem 0 0 0;
+    width: 100%;
+    margin: auto;
+  }
+
+  .travelAroundTitle .h1 {
+    display: none;
+  }
+
+  .h1ResponsiveMobile {
+    padding: 1rem;
+    text-align: center;
+    display: block;
+    font-size: 4rem;
+    font-weight: 400;
+    /* letter-spacing: 1px; */
+    line-height: 100%;
+    color: #4e4429;
+  }
+
+  .travelAroundTitleBottom {
+    display: none;
+  }
+
+  .travelAroundBox {
+    width: 100%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .travelAroundLeft {
+    width: 100%;
+  }
+
+  .travelAroundFigure {
+    width: 90%;
+  }
+
+  .travelAroundImg {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+  }
+
+  .travelAroundRight {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .travelAroundRightBox {
+    padding: 0 0 0 1rem;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .travelAroundRightBoxSpan {
+    margin-right: 1rem;
+    padding-left: 1rem;
+    width: 20%;
+  }
+
+  .travelAroundRightBoxItem {
+    width: 80%;
+  }
+}
+
+/* MEDIA QUERY MOBILE ***/
+@media (max-width: 380px) {
+  .h1ResponsiveMobile {
+    font-size: 4rem;
+  }
+
+  /* imagen de laguna */
+  .travelAroundLeft {
+    width: 100%;
+  }
+
+  .travelAroundFigure {
+    width: 80%;
+    margin: auto;
+  }
+
+  .travelAroundFigure {
+    width: 100%;
+  }
+
+  .travelAroundImg {
+    border-radius: 0%;
+  }
+
+  /* iconos de actividades*/
+  .travelAroundRightBox {
+    padding-left: 0;
+  }
+
+  .travelAroundRightBoxSpan {
+    margin-right: 0.5rem;
+  }
+}

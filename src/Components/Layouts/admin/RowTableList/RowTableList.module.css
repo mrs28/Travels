@@ -1,0 +1,44 @@
+th, td {
+    padding: 0.5rem;
+    /* border-right: 1px solid #000; 
+    border-left: 1px solid #000;  */
+    box-shadow: 1px 5px  grey;
+    border-bottom: 1.8px solid white;    
+}
+    
+.div  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.div, .divItem, .divImage {
+    height: 2rem;
+    width: 10rem;
+    padding: 0.5rem;
+    background-color: #1E1E1E; 
+    color: lightgrey;
+    font-size: small;
+    overflow: hidden;
+       /* overflow-y: scroll; */
+}
+
+.icon {
+    color: #16F8FF;
+}
+
+.button {
+    background-color: #1E1E1E;
+    height: 2rem;
+}
+
+
+
+/* ****** MEDIA QUERY ******/
+@media (max-width: 760px) { 
+    .div, .divItem, .divImage{
+        width: 5rem;
+    }
+
+   
+}

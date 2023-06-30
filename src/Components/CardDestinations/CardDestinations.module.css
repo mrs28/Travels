@@ -1,0 +1,35 @@
+.cardContainer {
+  box-shadow: 10px 5px 5px #808589;
+  /* background-color: yellowgreen; */
+}
+
+.cardContainer:hover {
+  transform: translateZ(5px) scale(1.1);
+  /* box-shadow: 0 0 20px #dbe4eb; */
+}
+
+.cardItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: left;
+}
+
+/* .CardMedia {
+  width: 400px;
+  height: 300px ;
+} */
+
+/* .cardItemDestination {
+  width: 85%;
+  background-color: green;
+} */
+
+/* ****** MEDIA QUERY ******/
+@media (max-width: 430px) {
+  .cardContainer:hover {
+    transform: none;
+    box-shadow: 0 0 20px #dbe4eb;
+  }
+}

@@ -1,0 +1,51 @@
+.formList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  background-color: #1e1e1e;
+  width: 100%;
+  margin: auto;
+}
+
+.input {
+  width: 11rem;
+  height: 2rem;
+  padding: 0.5rem;
+  margin-right: 0.2rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 3%;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.buttonBox {
+  /* padding-left: 2rem; */
+  margin-left: 3rem;
+}
+
+.button {
+  background-color: #1e1e1e;
+  margin-left: 1rem;
+  /* border: none; */
+}
+
+.icon {
+  color: #16f8ff;
+}
+
+/* ****** MEDIA QUERY ******/
+@media (max-width: 760px) {
+  .formList {
+    padding-left: 2.5rem;
+    width: 100%;
+  }
+  
+.input {
+  width: 13rem;
+}
+}

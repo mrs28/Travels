@@ -1,0 +1,53 @@
+.cardList {
+  padding: 5rem 1rem 5rem 1rem;
+}
+
+.infoTitle {
+  margin-top: 5rem;
+  width: 80%;
+  display: flex;
+  color: #4e4429;
+  margin: auto;
+  /* background-color: pink; */
+}
+
+.infoLeft {
+  /* padding: 1rem 1rem 1rem 2.5rem; */
+  width: 70%;
+}
+
+.infoRight {
+  text-align: right;
+  padding: 6rem 1rem 1rem 0;
+  width: 30%;
+  /* background-color: aqua; */
+}
+
+/****** MEDIA QUERY ******/
+
+@media (max-width: 380px) {
+  
+  .infoTitle {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  /*Explore popular*/
+  .infoLeft {
+    padding:0 0 0 1rem ;
+    /* background-color: green; */
+  }
+
+  .infoLeft .h1 {
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 3.5rem;
+  }
+
+  .infoRight {
+    padding: 1rem 0 0 1rem;
+    text-align: left;
+    width: 100%;
+  }
+}

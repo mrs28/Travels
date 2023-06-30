@@ -1,0 +1,30 @@
+/*Cabecera de la tabla*/
+.tableContainer {
+  overflow-y: scroll;
+  max-height: 60vh;
+  /* background-color: yellow;*/
+}
+
+.table {
+  border: 2px solid #999;
+  text-align: center;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.headTable {
+  height: 2rem;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+/* ****** MEDIA QUERY ******/
+@media (max-width: 760px) {
+  .tableContainer {
+    width: 100%;
+  }
+
+  .table {
+    margin-top: 2rem;
+  }
+}

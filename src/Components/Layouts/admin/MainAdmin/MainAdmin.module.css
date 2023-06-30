@@ -1,0 +1,37 @@
+.mainAdmin {
+  padding: 2.8rem 2rem 2.8rem 3rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  width: 100%;
+  background-color: #1e1e1e;
+  margin-bottom: 3rem;
+}
+
+.h3 {
+  color: #b2b2b2;
+}
+
+.formListBox {
+  width: 100%; /*da el espacio para comp. FormList*/
+}
+
+.icon {
+  color: #16f8ff;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* ****** MEDIA QUERY ******/
+@media (max-width: 760px) {
+  .mainAdmin {
+    padding: 1rem 0 2rem 0;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+/* 
+@media (max-width: 380px) and (orientation: landscape) 
+******/

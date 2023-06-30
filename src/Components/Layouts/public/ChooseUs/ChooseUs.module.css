@@ -1,0 +1,13 @@
+.chooseUs {
+  padding: 2rem 0 0 0;
+  /* background-color: pink; */
+}
+
+.chooseUsBox {
+  display: flex;
+  width: 100%;
+}
+.chooseUsLeft,
+.chooseUsRight {
+  width: 50%;
+}

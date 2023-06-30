@@ -1,0 +1,30 @@
+/****** En la sección: Top Values For You ******/
+
+.card {
+  padding: 3rem 2rem 3rem 2rem;
+  text-align: center;
+  border: solid 1px #b2b2b2;
+  border-radius: 3%;
+}
+
+.card:hover {
+  transform: translateZ(10px) scale(1.1);
+  box-shadow: 0 0 20px #e09e2d;
+}
+
+.textCard {
+  color: #b2b2b2;
+}
+
+.textCard:hover {
+  color: #808589;
+}
+
+/* +++++ MEDIA QUERY **** */
+@media (max-width: 430px) {
+  
+  .card:hover {
+    transform: translateZ(10px) scale(1.1);
+    box-shadow: 0 0 20px #e09e2d;
+  }
+}

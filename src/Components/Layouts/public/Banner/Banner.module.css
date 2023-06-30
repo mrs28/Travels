@@ -1,0 +1,183 @@
+.logo {
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+  top: 4rem;
+  left: 4rem;
+}
+
+.sigIn {
+  position: absolute;
+  display: inline-block;
+  top: 4rem;
+  right: 4rem;
+  color: #808589;
+  background-color: white;
+  border: none;
+  border-radius: 60%;
+  z-index: 1;
+}
+
+.h1,
+.icon {
+  color: #ffffff;
+}
+
+.imgBanner {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.imgBannerMobile {
+  display: none;
+}
+
+.messageBannerMobile {
+  display: none;
+}
+
+.boxMessageBanner {
+  position: absolute;
+  width: 75%;
+  height: 5rem;
+  bottom: 10rem;
+  left: 10.5rem;
+  /* background-color: #000000; */
+  background-color: #4e3b31;
+  border-radius: 2%;
+  opacity: 0.4;
+}
+
+.messageBanner {
+  position: absolute;
+  padding: 0.5rem;
+  width: 80%;
+  bottom: 10rem;
+  left: 11.5rem;
+  color: white;
+  z-index: 8;
+}
+
+/* ****** MEDIA QUERY TABLET******/
+@media (max-width: 760px) {
+  .logo {
+    top: 1.8rem;
+    left: 1.8rem;
+  }
+
+  .logo .h1 {
+    font-size: 1.6rem;
+  }
+
+  .logo .icon {
+    font-size: 1.4rem;
+  }
+
+  .sigIn {
+    top: 1.8rem;
+    right: 1.8rem;
+    background-color: #f2ebeb;
+  }
+
+  .imgBanner {
+    display: none;
+  }
+
+  .messageBanner {
+    display: none;
+  }
+
+  .imgBannerMobile {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+  }
+
+  .boxMessageBanner {
+    width: 39%;
+    height: 3.1rem;
+    bottom: 2.4rem;
+    left: 15.5rem;
+    /* background-color: #5b3a29; */
+    background-color: #4e3b31;
+    border-radius: 2%;
+    opacity: 0.4;
+  }
+
+  .messageBannerMobile {
+    display: block;
+    position: absolute;
+    padding: 0.5rem;
+    width: 100%;
+    bottom: 2.2rem;
+    left: 15.5rem;
+    color: white;
+    opacity: 0.9;
+  }
+
+}
+
+
+/* ****** MEDIA QUERY MOBILE *****/
+@media (max-width: 380px) {
+  .logo {
+    top: 1.8rem;
+    left: 1.8rem;
+  }
+
+  .logo .h1 {
+    font-size: 1.6rem;
+  }
+
+  .logo .icon {
+    font-size: 1.4rem;
+  }
+
+  .sigIn {
+    top: 1.8rem;
+    right: 1.8rem;
+    background-color: #f2ebeb;
+  }
+
+  .imgBanner {
+    display: none;
+  }
+
+  .messageBanner {
+    display: none;
+  }
+
+  .imgBannerMobile {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+  }
+
+  .boxMessageBanner {
+    position: absolute;
+    width: 70%;
+    height: 3.1rem;
+    bottom: 2.4rem;
+    left: 3rem;
+    /* background-color: #5b3a29; */
+    background-color: #4e3b31;
+    border-radius: 2%;
+    opacity: 0.4;
+  }
+
+  .messageBannerMobile {
+    display: block;
+    position: absolute;
+    padding: 0.5rem;
+    width: 100%;
+    bottom: 2.2rem;
+    left: 3.3rem;
+    color: white;
+    opacity: 0.9;
+  }
+}

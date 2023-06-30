@@ -1,0 +1,99 @@
+.containerLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  height: 100vh;
+  width: 100%;
+  background-color: #1e1e1e;
+}
+
+.containerLoginElements {
+  max-width: 80%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.form {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.h1 {
+  color: #16f8ff;
+  text-align: center;
+  font-weight: 500;
+}
+
+.h4 {
+  color: #b2b2b2;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  color: #ffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.input {
+  width: 19.5rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: solid 1px #5e5e5e;
+  margin: 0.7rem 0 0.7rem 0;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+/* *** MEDIA QUERY *** */
+@media (max-width: 380px) {
+  .containerLogin {
+    padding: 0;
+    max-height: 100%;
+  }
+
+  .containerLoginElements {
+    max-width: 100%;
+    padding: 0;
+  }
+ 
+ 
+}
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    margin: 8rem;
+    
+}
+.form {
+    background-color: pink;
+  /* background-color: #18212c; */
+
+/* .textField {
+    border-radius: 5px;
+    border: solid 1px #5e5e5e;
+  }
+  
+
+
+  .button {
+   border-radius: 2rem;
+  } */

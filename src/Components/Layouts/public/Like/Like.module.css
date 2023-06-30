@@ -1,0 +1,11 @@
+
+.likeButton {
+  width: 15%;
+  margin-top: 0.5rem;
+  border: none;
+  background-color: white;
+}
+
+.icon {
+  color: red;
+}
