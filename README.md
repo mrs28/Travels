@@ -28,17 +28,6 @@ It adapts to different screen sizes, ensuring an optimal user experience on vari
 - Data persistence: all the data is stored in Firebase.
 # Description of the user view:
 - It allows giving Likes to the posts.
-# Description of the user view:
-- It allows giving Likes to the posts.
-# Dependencies
-The installation of dependencies was done using npm.
-- react
-- react-dom
-- react-router-dom
-- Material UI
-- Material UI Icons
-- Firebase Real Time
-# Acknowledgments
-"I would like to express my sincere appreciation to Professor Eduardo de Rivero for his mentorship throughout this project and a special thanks to Daniel de la Cruz, both from CodiGO Bootcamp by Tecsup."
+
 
 
